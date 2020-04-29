@@ -39,7 +39,7 @@ export default {
   //更新讲师
   updateTeacher(teacher) {
     return request({
-      url: '/eduservice/teacher/addTeacher',
+      url: '/eduservice/teacher/updateTeacher',
       method: 'post',
       data:teacher
     })
